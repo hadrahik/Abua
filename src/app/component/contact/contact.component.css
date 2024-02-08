@@ -1,0 +1,18 @@
+/* contact.component.scss */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons .button {
+    margin: 0 10px;
+  }
+  
+  .left-image,
+  .right-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  

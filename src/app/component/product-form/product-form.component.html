@@ -1,0 +1,36 @@
+
+
+<div class="container">
+  
+    <h2 class="title">Formulario de Solicitud de Producto</h2>
+    <form (ngSubmit)="enviarFormulario(formulario)" #formulario="ngForm">
+     <div class="field">
+        <label class="label">Nombre:</label>
+        <div class="control">
+          <input class="input" type="text" name="nombre" ngModel required>
+        </div>
+      </div>
+  
+      <div class="field">
+        <label class="label">Correo Electrónico:</label>
+        <div class="control">
+          <input class="input" type="email" name="correo" ngModel required>
+        </div>
+      </div>
+  
+      <!-- Repite estos pasos para los otros campos del formulario -->
+  
+      <div class="field">
+        <label class="label">Comentario:</label>
+        <div class="control">
+          <textarea class="textarea" name="comentario" ngModel></textarea>
+        </div>
+      </div>
+  
+      <div class="field">
+        <div class="control">
+          <button class="button is-primary" type="submit" [disabled]="!formulario.valid">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </div>

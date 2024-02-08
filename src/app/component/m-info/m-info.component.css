@@ -1,0 +1,16 @@
+/* home.component.scss */
+.benefits-section {
+    background-color: #f5f5f5; /* Puedes ajustar el color de fondo según tu preferencia */
+    padding: 50px 0;
+  
+    .box {
+      background-color: #fff; /* Fondo blanco para las cajas de beneficios */
+      padding: 20px;
+      margin-bottom: 20px;
+  
+      h3 {
+        color: #3273dc; /* Color azul para los títulos de beneficios */
+      }
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25D366; /* Color de WhatsApp */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .whatsapp-button img {
+    width: 80%; /* Ajusta el tamaño del ícono según sea necesario */
+  }
+  
